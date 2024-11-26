@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7238823600723507943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7717806677464542454}
+  - component: {fileID: 67108052068395282}
+  m_Layer: 0
+  m_Name: Com Port Information
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7717806677464542454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238823600723507943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 966.4945, y: 182.5464, z: 26.627913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1524816759522063590}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &67108052068395282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238823600723507943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4e5c48c515d4a4aaf919582fa6c017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_comPortInformation:
+  - m_comPort: COM13
+    m_name: Standard Serial over Bluetooth link (COM13)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\7&amp;1A14B62F&amp;0&amp;000000000000_00000002
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\\7&amp;1A14B62F&amp;0&amp;000000000000_00000002\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM13)"
+  - m_comPort: COM41
+    m_name: Standard Serial over Bluetooth link (COM41)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\7&amp;1A14B62F&amp;0&amp;000000000000_00000015
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\\7&amp;1A14B62F&amp;0&amp;000000000000_00000015\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM41)"
+  - m_comPort: COM12
+    m_name: Standard Serial over Bluetooth link (COM12)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&amp;000102B0_PID&amp;0000\7&amp;1A14B62F&amp;0&amp;785EA278907D_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_VID&amp;000102B0_PID&amp;0000\\7&amp;1A14B62F&amp;0&amp;785EA278907D_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM12)"
+  - m_comPort: COM40
+    m_name: Standard Serial over Bluetooth link (COM40)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\7&amp;1A14B62F&amp;0&amp;98D371F70675_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\\7&amp;1A14B62F&amp;0&amp;98D371F70675_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM40)"
+  - m_comPort: COM42
+    m_name: USB-SERIAL CH340 (COM42)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86&amp;PID_7523\6&amp;1C048DC6&amp;1&amp;4
+    m_rawDescription: "DeviceID=USB\\VID_1A86&amp;PID_7523\\6&amp;1C048DC6&amp;1&amp;4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM42)"
+  - m_comPort: COM44
+    m_name: USB-SERIAL CH340 (COM44)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86&amp;PID_7523\6&amp;1C048DC6&amp;1&amp;3
+    m_rawDescription: "DeviceID=USB\\VID_1A86&amp;PID_7523\\6&amp;1C048DC6&amp;1&amp;3\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM44)"
+  - m_comPort: COM46
+    m_name: USB-SERIAL CH340 (COM46)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86&amp;PID_7523\6&amp;1C048DC6&amp;1&amp;2
+    m_rawDescription: "DeviceID=USB\\VID_1A86&amp;PID_7523\\6&amp;1C048DC6&amp;1&amp;2\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM46)"
+  - m_comPort: COM43
+    m_name: USB-SERIAL CH340 (COM43)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86&amp;PID_7523\7&amp;8D93D34&amp;0&amp;4
+    m_rawDescription: "DeviceID=USB\\VID_1A86&amp;PID_7523\\7&amp;8D93D34&amp;0&amp;4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM43)"
+  - m_comPort: COM47
+    m_name: Standard Serial over Bluetooth link (COM47)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\7&amp;1A14B62F&amp;0&amp;000000000000_00000016
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\\7&amp;1A14B62F&amp;0&amp;000000000000_00000016\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM47)"
+  - m_comPort: COM48
+    m_name: Standard Serial over Bluetooth link (COM48)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\7&amp;1A14B62F&amp;0&amp;98D331F71FD3_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\\7&amp;1A14B62F&amp;0&amp;98D331F71FD3_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM48)"
+  - m_comPort: COM49
+    m_name: Standard Serial over Bluetooth link (COM49)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\7&amp;1A14B62F&amp;0&amp;98D361F74044_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\\7&amp;1A14B62F&amp;0&amp;98D361F74044_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM49)"
+  - m_comPort: COM50
+    m_name: Standard Serial over Bluetooth link (COM50)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\7&amp;1A14B62F&amp;0&amp;000000000000_00000017
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\\7&amp;1A14B62F&amp;0&amp;000000000000_00000017\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM50)"
+  - m_comPort: COM51
+    m_name: Standard Serial over Bluetooth link (COM51)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\7&amp;1A14B62F&amp;0&amp;98D331F71DA0_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0002\\7&amp;1A14B62F&amp;0&amp;98D331F71DA0_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM51)"
+  - m_comPort: COM52
+    m_name: Standard Serial over Bluetooth link (COM52)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\7&amp;1A14B62F&amp;0&amp;000000000000_00000018
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&amp;0000\\7&amp;1A14B62F&amp;0&amp;000000000000_00000018\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM52)"
+  - m_comPort: COM13
+    m_name: Standard Serial over Bluetooth link (COM13)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\7_1A14B62F_0_000000000000_00000002
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000002\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM13)"
+  - m_comPort: COM41
+    m_name: Standard Serial over Bluetooth link (COM41)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\7_1A14B62F_0_000000000000_00000015
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000015\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM41)"
+  - m_comPort: COM12
+    m_name: Standard Serial over Bluetooth link (COM12)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID_000102B0_PID_0000\7_1A14B62F_0_785EA278907D_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_VID_000102B0_PID_0000\\7_1A14B62F_0_785EA278907D_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM12)"
+  - m_comPort: COM40
+    m_name: Standard Serial over Bluetooth link (COM40)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\7_1A14B62F_0_98D371F70675_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D371F70675_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM40)"
+  - m_comPort: COM42
+    m_name: USB-SERIAL CH340 (COM42)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86_PID_7523\6_1C048DC6_1_4
+    m_rawDescription: "DeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM42)"
+  - m_comPort: COM44
+    m_name: USB-SERIAL CH340 (COM44)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86_PID_7523\6_1C048DC6_1_3
+    m_rawDescription: "DeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_3\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM44)"
+  - m_comPort: COM46
+    m_name: USB-SERIAL CH340 (COM46)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86_PID_7523\6_1C048DC6_1_2
+    m_rawDescription: "DeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_2\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM46)"
+  - m_comPort: COM43
+    m_name: USB-SERIAL CH340 (COM43)
+    m_manufacturer: wch.cn
+    m_deviceID: USB\VID_1A86_PID_7523\7_8D93D34_0_4
+    m_rawDescription: "DeviceID=USB\\VID_1A86_PID_7523\\7_8D93D34_0_4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+      CH340 (COM43)"
+  - m_comPort: COM47
+    m_name: Standard Serial over Bluetooth link (COM47)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\7_1A14B62F_0_000000000000_00000016
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000016\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM47)"
+  - m_comPort: COM48
+    m_name: Standard Serial over Bluetooth link (COM48)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\7_1A14B62F_0_98D331F71FD3_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D331F71FD3_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM48)"
+  - m_comPort: COM49
+    m_name: Standard Serial over Bluetooth link (COM49)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\7_1A14B62F_0_98D361F74044_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D361F74044_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM49)"
+  - m_comPort: COM50
+    m_name: Standard Serial over Bluetooth link (COM50)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\7_1A14B62F_0_000000000000_00000017
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000017\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM50)"
+  - m_comPort: COM51
+    m_name: Standard Serial over Bluetooth link (COM51)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\7_1A14B62F_0_98D331F71DA0_C00000000
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D331F71DA0_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM51)"
+  - m_comPort: COM52
+    m_name: Standard Serial over Bluetooth link (COM52)
+    m_manufacturer: Microsoft
+    m_deviceID: BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\7_1A14B62F_0_000000000000_00000018
+    m_rawDescription: "DeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000018\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+      Serial over Bluetooth link (COM52)"
+  m_allPortNameInfo: "\n\n---------COM13--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000002\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM13)\n\n---------COM41--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000015\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM41)\n\n---------COM12--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_VID_000102B0_PID_0000\\7_1A14B62F_0_785EA278907D_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM12)\n\n---------COM40--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D371F70675_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM40)\n\n---------COM42--------\nDeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+    CH340 (COM42)\n\n---------COM44--------\nDeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_3\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+    CH340 (COM44)\n\n---------COM46--------\nDeviceID=USB\\VID_1A86_PID_7523\\6_1C048DC6_1_2\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+    CH340 (COM46)\n\n---------COM43--------\nDeviceID=USB\\VID_1A86_PID_7523\\7_8D93D34_0_4\r\r\nManufacturer=wch.cn\r\r\nName=USB-SERIAL
+    CH340 (COM43)\n\n---------COM47--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000016\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM47)\n\n---------COM48--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D331F71FD3_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM48)\n\n---------COM49--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D361F74044_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM49)\n\n---------COM50--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000017\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM50)\n\n---------COM51--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0002\\7_1A14B62F_0_98D331F71DA0_C00000000\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM51)\n\n---------COM52--------\nDeviceID=BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG_0000\\7_1A14B62F_0_000000000000_00000018\r\r\nManufacturer=Microsoft\r\r\nName=Standard
+    Serial over Bluetooth link (COM52)"
+--- !u!1 &8432894195614669852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524816759522063590}
+  - component: {fileID: 6545055420041159232}
+  m_Layer: 0
+  m_Name: ListenToComInOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1524816759522063590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432894195614669852}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7717806677464542454}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6545055420041159232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432894195614669852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8220b21aa49d2d419f0c1faebc0434d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_informationHolder: {fileID: 67108052068395282}
+  m_lastChangedPort:
+    m_comPort: COM0
+    m_name: None
+    m_manufacturer: None
+    m_deviceID: None
+    m_rawDescription: None
+  m_currentComPort: COM13,COM41,COM12,COM40,COM42,COM44,COM46,COM47,COM48,COM49,COM50,COM51,COM52,COM43
+  m_currentPortNamesList:
+  - COM13
+  - COM41
+  - COM12
+  - COM40
+  - COM42
+  - COM44
+  - COM46
+  - COM47
+  - COM48
+  - COM49
+  - COM50
+  - COM51
+  - COM52
+  - COM43
+  m_previousPortNamesList: []
+  m_comPortNew: COM13,COM41,COM12,COM40,COM42,COM44,COM46,COM47,COM48,COM49,COM50,COM51,COM52,COM43
+  m_newPortNamesList:
+  - COM13
+  - COM41
+  - COM12
+  - COM40
+  - COM42
+  - COM44
+  - COM46
+  - COM47
+  - COM48
+  - COM49
+  - COM50
+  - COM51
+  - COM52
+  - COM43
+  m_comPortRemoved: 
+  m_removedPortNamesList: []
+  m_onNewDevice:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 67108052068395282}
+        m_TargetAssemblyTypeName: Eloi.Port.ComPortInformationHolderMono, Assembly-CSharp
+        m_MethodName: TryToAppendComInfoIfNotExisting
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onRemovedDevice:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onNewPortInfo:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onRemovedPortInfo:
+    m_PersistentCalls:
+      m_Calls: []
+  m_updateRate: 3
