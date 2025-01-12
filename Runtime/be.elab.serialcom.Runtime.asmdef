@@ -1,14 +1,10 @@
 {
-    "name": "be.elab.serialcom.Runtime",
+    "name": "be.elab.serialcom",
     "rootNamespace": "",
     "references": [
         "Unity.InputSystem"
     ],
-    "includePlatforms": [
-        "Editor",
-        "WindowsStandalone32",
-        "WindowsStandalone64"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
